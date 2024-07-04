@@ -42,7 +42,6 @@ const userSchema = new mongoose.Schema(
     coverImg: {
       type: String,
       default: "",
-      ß,
     },
     bio: {
       type: String,

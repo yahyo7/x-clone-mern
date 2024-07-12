@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth.route.js'
 import userRoutes from './routes/user.route.js'
 import postRoutes from './routes/post.route.js'
+import notificationRoutes from './routes/notification.route.js'
 
 dotenv.config();
 
@@ -26,6 +27,7 @@ app.use(cookieParser()); // help to get cookies
 app.use('/api/auth', authRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/posts', postRoutes)
+app.use('/api/notifications', notificationRoutes)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`)

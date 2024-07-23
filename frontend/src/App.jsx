@@ -51,7 +51,7 @@ function App() {
       <div className="flex max-w-6xl mx-auto">
         {/* Common components */}
         { authUser && <Sidebar />}
-        console.log("authUser is here: ", authUser);
+        
         <Routes>
           <Route
             path="/"

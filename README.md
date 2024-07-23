@@ -1,8 +1,18 @@
-# MERN Stack X(ex-Twitter) Clone
 
-Live Website: [https://x-clone-mern-ec2v.onrender.com/](https://x-clone-mern-ec2v.onrender.com/)
+<div align="center">
+    <h2>
+       MERN Stack X/ex-Twitter Clone
+    </h2>
+</div>
 
-![Local Image](assets/images/demo-app.png)
+<div align="center">
+    <a href="https://x-clone-mern-ec2v.onrender.com/">
+        Live Website on Render
+    </a>
+</div>
+
+
+![Demo Image](frontend/public/demo.png)
 
 ## Features
 
